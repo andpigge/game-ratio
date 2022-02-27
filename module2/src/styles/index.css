@@ -1,7 +1,28 @@
 body {
-	background-color: red;
+	margin: 0;
+}
 
-	@media (max-width: 780px) {
-		background-color: black;
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+
+	&__item {
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		border: 10px solid blueviolet;
+		background-color: cornsilk;
 	}
+}
+
+.ell {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	background-color: lightgreen;
 }
