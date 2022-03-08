@@ -2,3 +2,13 @@
 @import url(./fonts.css);
 
 @import url(./app.css);
+
+body {
+	font-size: calc(100vw / 1440 * 16);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@media (max-width: 728px) {
+		font-size: calc(100vw / 728 * 16);
+	}
+}
