@@ -2,7 +2,10 @@
 @import url(./fonts.css);
 @import url(./palette.css);
 
-@import url(./app.css);
+@import url(./blocks/cell.css);
+@import url(./blocks/game.css);
+@import url(./blocks/main.css);
+@import url(./blocks/score.css);
 
 body {
 	font-size: calc(100vw / 1920 * 16);

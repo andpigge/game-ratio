@@ -1,0 +1,15 @@
+.cell {
+	display: flex;
+	height: 100%;
+	background-color: var(--milky);
+	justify-content: center;
+	align-items: center;
+
+	&__text {
+		@mixin text;
+		@mixin user-select-none;
+
+		font-size: 55px;
+		cursor: default;
+	}
+}

@@ -1,0 +1,28 @@
+.game {
+	height: 100vh;
+	padding: 0 2.25em;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__list {
+		padding: 1em;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(5, 7rem);
+		grid-auto-rows: 7rem;
+		justify-content: center;
+		align-content: center;
+		list-style: none;
+		gap: 1em;
+		background-color: var(--brown);
+		border-radius: .25em;
+	}
+
+	&__item {
+		text-align: center;
+		background-color: var(--brown-light);
+		border-radius: .25em;
+	}
+}
