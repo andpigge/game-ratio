@@ -38,6 +38,27 @@ class Game {
 	}
 }
 
+const keyHandler = () => {
+	coordinates.forEach(ell => {
+		ell.y = 5
+	});
+};
+
+document.addEventListener('keydown', e => {
+	if (e.key === 'ArrowUp') {
+		console.log('Верх')
+	}
+	if (e.key === 'ArrowRight') {
+		console.log('Право')
+	}
+	if (e.key === 'ArrowDown') {
+		keyHandler();
+	}
+	if (e.key === 'ArrowLeft') {
+		console.log('Лево')
+	}
+});
+
 coordinates.forEach(ell => {
 	const game = new Game(ell.x, ell.y - 1, ell.name);
 	game.init(list);

@@ -1,10 +1,11 @@
 @import url(./normalize.css);
 @import url(./fonts.css);
+@import url(./palette.css);
 
 @import url(./app.css);
 
 body {
-	font-size: calc(100vw / 1440 * 16);
+	font-size: calc(100vw / 1920 * 16);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
