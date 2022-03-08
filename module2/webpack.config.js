@@ -14,6 +14,7 @@ module.exports = {
     extensions: [".js", ".ts", ".css"],
     alias: {
       "@": resolve(__dirname, "src"),
+      "@@": resolve(__dirname, "public"),
     },
   },
   optimization: {
