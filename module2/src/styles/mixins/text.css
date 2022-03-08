@@ -1,0 +1,6 @@
+@define-mixin text {
+	margin: 0;
+	font-family: "Roboto Slab", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
