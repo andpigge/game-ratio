@@ -10,8 +10,8 @@
 		padding: 1em;
 		margin: 0;
 		display: grid;
-		grid-template-columns: repeat(5, 7rem);
-		grid-auto-rows: 7rem;
+		grid-template-columns: repeat(5, 7em);
+		grid-auto-rows: 7em;
 		justify-content: center;
 		align-content: center;
 		list-style: none;
