@@ -1,29 +1,4 @@
 @import url(./normalize.css);
 @import url(./fonts.css);
 
-.list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-
-	&__item {
-		@mixin text;
-
-		width: 100px;
-		height: 100px;
-		text-align: center;
-		border: 10px solid blueviolet;
-		background-color: cornsilk;
-	}
-}
-
-.ell {
-	width: 100px;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 24px;
-	background-color: lightgreen;
-}
+@import url(./app.css);
