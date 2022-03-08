@@ -1,6 +1,4 @@
-body {
-	margin: 0;
-}
+@import url(./normalize.css);
 
 .list {
 	margin: 0;
