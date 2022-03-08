@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 600;
+	src: 
+		url('../../public/fonts/RobotoSlab/RobotoSlab-SemiBold.ttf') format('truetype'),
+		url('../../public/fonts/RobotoSlab/RobotoSlab-SemiBold.woff') format('woff'),
+		url('../../public/fonts/RobotoSlab/RobotoSlab-SemiBold.woff2') format('woff2');
+}
